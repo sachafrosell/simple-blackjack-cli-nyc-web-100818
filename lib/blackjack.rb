@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(number)
-  puts ''
+  puts 'Your cards add up to #{number}'
 end
 
 def prompt_user
@@ -18,8 +18,8 @@ def get_user_input
   user_input = gets.chomp
 end
 
-def end_game
-  # code #end_game here
+def end_game(number)
+  
 end
 
 def initial_round
