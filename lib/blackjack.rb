@@ -55,5 +55,6 @@ def runner
     return hit?(initial_round)
   else 
     return "bust!"
+  end
 end
     
