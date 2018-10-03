@@ -53,7 +53,8 @@ def runner
   welcome
   hand = initial_round
   
-  until hand > 21
+  until hand > 21 do
+    hand = hit?
   
 end
     
