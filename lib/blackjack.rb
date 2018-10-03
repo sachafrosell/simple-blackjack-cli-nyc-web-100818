@@ -23,13 +23,12 @@ def end_game(number)
 end
 
 def initial_round
-  deal_card
-  deal_card
-  display_card_total
+  cards = deal_card + deal_card
+  display_card_total(cards)
 end
 
-def hit?
-  # code hit? here
+def hit?(card_total)
+ 
 end
 
 def invalid_command
