@@ -51,6 +51,7 @@ end
 
 def runner
   welcome
-  hit?(initial_round)
+  if hit?(initial_round) < 21 
+    return 
 end
     
