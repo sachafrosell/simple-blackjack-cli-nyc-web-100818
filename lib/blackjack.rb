@@ -34,7 +34,7 @@ def hit?(sum)
  if input == 'h'
    sum += deal_card
  elsif input == 's'
-  sum = sum
+  return sum
   else 
   invalid_command
   prompt_user
